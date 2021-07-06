@@ -75,16 +75,23 @@ h2{
     overflow: hidden;
     justify-content: space-between;
     margin-bottom: 100px;
+    background-color: rgba(223, 228, 234, .3);
 }
 .third-half{
     width: 23%;
     border-radius: 20px;
     border: 15px solid #ffffff;
-    box-shadow: 10px 5px 50px #84817a;
+    box-shadow: 30px 20px 40px #dcdde1;
 }
 .third-half img{
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
+}
+.third-half:nth-child(1){
+    margin-left: 7%;
+}
+.third-half:nth-child(3){
+    margin-right: 7%;
 }
 
 
